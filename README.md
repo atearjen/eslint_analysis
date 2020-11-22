@@ -20,6 +20,11 @@ Finding the correlation of eslint result with npm package popularity
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. in npmpackages.txt for example, those are packages 2790 -2990, if you want packages 0-200 or the middle 200.   
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Copy your selection from the google drive, and paste over the text file ( CMD/CTRL + A, CTRL/CMD + C).  
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on Excel/Drive, (CMD/CTRL + A, Ctrl/CMD + P) on your. text editor,  I used Sublime. 
+ ## How to get Eslintdirs.txt ## 
+   In whatever directory you used githubClone.py. type this into your terminal ` ` ` ls > eslintDirs.txt ` ` `  
+   That will output all files into a text file called eslintDirs.txt, then you will have to remove the non directory files. I did it in finder. 
+   Unless there is an ls command which will only return directories, you're going to have to manually remove some. 
+     
 
 
 #### GitHub Clone will create a lot of directories, make sure to run a script in a giant directory #### 
