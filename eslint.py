@@ -40,7 +40,7 @@ cmd2 = 'eslint -f summary '
 i = 0
 while(i < len(eslintDirectories)):
 	print("RUNNING ESLINT: ", eslintDirectories[i].upper())
-	cmd = cmd2 + eslintDirectories[i] + "> eslintOut" + str(i) + ".txt"
+	cmd = cmd2 + eslintDirectories[i] + ">"+ eslintDirectories[i] + ".txt"
 	os.system(cmd)
 	cmd = cmd2 #Reset the CMD. to NPMInstall
 	i = i + 1
